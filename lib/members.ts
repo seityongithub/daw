@@ -21,6 +21,7 @@ export interface Member {
   background: string
   music: string
   socials?: SocialLinks
+  views?: number // Fake profile views - manually edit this number
 }
 
 export const members: Member[] = [
@@ -34,6 +35,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@denvr2fast",
     },
+    views: 1250,
   },
   {
     name: "CLYDEN",
@@ -45,6 +47,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@ClydenFiveM",
     },
+    views: 980,
   },
   {
     name: "BERTWO",
@@ -56,6 +59,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@bertwoalvarez",
     },
+    views: 875,
   },
   {
     name: "RAMIE",
@@ -67,6 +71,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@ramie-r4n",
     },
+    views: 720,
   },
   {
     name: "CHANCE",
@@ -79,6 +84,7 @@ export const members: Member[] = [
       youtube: "https://www.youtube.com/@NoChance_GG",
       tiktok: "https://www.tiktok.com/@nochance_gg/",
     },
+    views: 1100,
   },
   {
     name: "KING",
@@ -90,6 +96,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@kingghayes",
     },
+    views: 650,
   },
   {
     name: "MAUREEN",
@@ -98,6 +105,7 @@ export const members: Member[] = [
     role: "Founder",
     background: "/backgrounds/maureen.gif",
     music: "https://www.youtube.com/watch?v=8AsEhY-aBdo",
+    views: 540,
   },
   {
     name: "SHANTY",
@@ -110,6 +118,7 @@ export const members: Member[] = [
       youtube: "https://www.youtube.com/@Shanty_Yi",
       kick: "https://kick.com/tutishanty",
     },
+    views: 430,
   },
   {
     name: "JUSTIN",
@@ -122,6 +131,7 @@ export const members: Member[] = [
       youtube: "https://www.youtube.com/@JxtnTempest",
       tiktok: "https://www.tiktok.com/@oblvcks",
     },
+    views: 380,
   },
   {
     name: "JAMBO",
@@ -133,6 +143,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@Zipppp6_25",
     },
+    views: 290,
   },
 ]
 
@@ -162,8 +173,4 @@ export const archiveVideos: ArchiveVideo[] = [
   { id: "sRgUCWNHpSA", title: "DAW Archive 9", thumbnail: "" },
   { id: "ivzvxTPHPQc", title: "DAW Archive 10", thumbnail: "/thumbnails/DAW10.avif" },
   { id: "NUdDDqFiXV0", title: "DAW Archive 11", thumbnail: "" },
-  { id: "AgKVz8OE9lQ", title: "DAW Archive 12", thumbnail: "/thumbnails/DAW12.avif" },
-  { id: "sV0BdH4MDNk", title: "DAW Archive 13", thumbnail: "/thumbnails/DAW13.avif" },
-  { id: "CD9ScURUbg",  title: "DAW Archive 14", thumbnail: "/thumbnails/DAW14.avif" },
-  { id: "SuwbxN9H9jo",  title: "DAW Archive 15", thumbnail: "/thumbnails/DAW15.avif" },
 ]
