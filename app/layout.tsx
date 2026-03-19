@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Dominate And Win',
   description: 'DAW (Dominate And Win) is a community of FiveM players focused on dominance, teamwork, and competitive gameplay.',
-  generator: 'v0.app',
   icons: {
     icon: '/favicon.ico',
   },
