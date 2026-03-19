@@ -36,7 +36,7 @@ export default function ArchivePage() {
                 className="group relative aspect-video bg-white/5 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:border-white/20"
               >
                 <img
-                  src={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`}
+                  src={video.thumbnail && video.thumbnail.length > 0 ? video.thumbnail : `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`}
                   alt={video.title}
                   className="w-full h-full object-cover"
                 />
