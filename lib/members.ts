@@ -24,12 +24,11 @@ export interface Member {
 }
 
 export const members: Member[] = [
-    {
+  {
     name: "DENVER",
     slug: "denver",
     discordId: "685390457852788784",
     role: "Founder",
-    // Custom background for DENVER
     background: "/backgrounds/denver.gif",
     music: "https://www.youtube.com/watch?v=fG4g-HHRFPo",
     socials: {
@@ -43,6 +42,9 @@ export const members: Member[] = [
     role: "Founder",
     background: "/backgrounds/clyden.gif",
     music: "https://www.youtube.com/watch?v=adfUwRb-GNc",
+    socials: {
+      youtube: "https://www.youtube.com/@ClydenFiveM",
+    },
   },
   {
     name: "BERTWO",
@@ -60,7 +62,6 @@ export const members: Member[] = [
     slug: "ramie",
     discordId: "1247385547618390047",
     role: "Founder",
-    // Custom background for RAMIE
     background: "/backgrounds/ramie.gif",
     music: "https://www.youtube.com/watch?v=_-YjO6KfEMk",
     socials: {
@@ -72,7 +73,6 @@ export const members: Member[] = [
     slug: "chance",
     discordId: "279638342021283840",
     role: "Founder",
-    // Custom background for CHANCE
     background: "/backgrounds/chance.gif",
     music: "https://youtu.be/zXgyDKGbscE",
     socials: {
@@ -99,13 +99,11 @@ export const members: Member[] = [
     background: "/backgrounds/maureen.gif",
     music: "https://www.youtube.com/watch?v=8AsEhY-aBdo",
   },
-
   {
     name: "SHANTY",
     slug: "shanty",
     discordId: "716585772861620285",
     role: "Founder",
-    // Custom background for Shanty
     background: "/backgrounds/shanty.gif",
     music: "https://www.youtube.com/watch?v=lcs4vkkd3yY",
     socials: {
@@ -118,7 +116,6 @@ export const members: Member[] = [
     slug: "justin",
     discordId: "655089283199402006",
     role: "Founder",
-    // Custom background for Justin
     background: "/backgrounds/justin.gif",
     music: "https://www.youtube.com/watch?v=iEo8thKLxFw",
     socials: {
@@ -131,7 +128,6 @@ export const members: Member[] = [
     slug: "jambo",
     discordId: "1134152321417367765",
     role: "Founder",
-    // Custom background for Jambo
     background: "/backgrounds/jambo.gif",
     music: "https://www.youtube.com/watch?v=4NMtC0L120A",
     socials: {
