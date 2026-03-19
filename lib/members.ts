@@ -140,16 +140,26 @@ export const getMemberBySlug = (slug: string): Member | undefined => {
   return members.find((m) => m.slug === slug.toLowerCase())
 }
 
-export const archiveVideos = [
-  { id: "946wpd_8gho", title: "DAW Archive 1" },
-  { id: "khA5jt5QO6A", title: "DAW Archive 2" },
-  { id: "RSBb4h2XZQI", title: "DAW Archive 3" },
-  { id: "sJjrNVtfBsg", title: "DAW Archive 4" },
-  { id: "peAiTTkMqZ4", title: "DAW Archive 5" },
-  { id: "nVVhiPaaHts", title: "DAW Archive 6" },
-  { id: "W2Rm8POR2v8", title: "DAW Archive 7" },
-  { id: "GQi8KuM1HVQ", title: "DAW Archive 8" },
-  { id: "sRgUCWNHpSA", title: "DAW Archive 9" },
-  { id: "ivzvxTPHPQc", title: "DAW Archive 10" },
-  { id: "NUdDDqFiXV0", title: "DAW Archive 11" },
+// Archive video interface with optional custom thumbnail
+// Supported formats: .avif, .png, .jpg, .jpeg, .webp, .gif
+// Place thumbnails in /public/thumbnails/ folder
+// Example: thumbnail: "/thumbnails/archive-1.avif"
+export interface ArchiveVideo {
+  id: string
+  title: string
+  thumbnail?: string // Optional custom thumbnail path (e.g., "/thumbnails/video1.png")
+}
+
+export const archiveVideos: ArchiveVideo[] = [
+  { id: "946wpd_8gho", title: "DAW Archive 1", thumbnail: "" },
+  { id: "khA5jt5QO6A", title: "DAW Archive 2", thumbnail: "/thumbnails/DAW2.avif" },
+  { id: "RSBb4h2XZQI", title: "DAW Archive 3", thumbnail: "/thumbnails/DAW3.avif" },
+  { id: "sJjrNVtfBsg", title: "DAW Archive 4", thumbnail: "" },
+  { id: "peAiTTkMqZ4", title: "DAW Archive 5", thumbnail: "" },
+  { id: "nVVhiPaaHts", title: "DAW Archive 6", thumbnail: "" },
+  { id: "W2Rm8POR2v8", title: "DAW Archive 7", thumbnail: "/thumbnails/DAW7.avif" },
+  { id: "GQi8KuM1HVQ", title: "DAW Archive 8", thumbnail: "" },
+  { id: "sRgUCWNHpSA", title: "DAW Archive 9", thumbnail: "" },
+  { id: "ivzvxTPHPQc", title: "DAW Archive 10", thumbnail: "/thumbnails/DAW10.avif" },
+  { id: "NUdDDqFiXV0", title: "DAW Archive 11", thumbnail: "" },
 ]
