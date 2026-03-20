@@ -173,4 +173,8 @@ export const archiveVideos: ArchiveVideo[] = [
   { id: "sRgUCWNHpSA", title: "DAW Archive 9", thumbnail: "" },
   { id: "ivzvxTPHPQc", title: "DAW Archive 10", thumbnail: "/thumbnails/DAW10.avif" },
   { id: "NUdDDqFiXV0", title: "DAW Archive 11", thumbnail: "" },
+  { id: "AgKVz8OE9lQ", title: "DAW Archive 12", thumbnail: "/thumbnails/DAW12.avif" },
+  { id: "sV0BdH4MDNk", title: "DAW Archive 13", thumbnail: "/thumbnails/DAW13.avif" },
+  { id: "CD9ScURUbg",  title: "DAW Archive 14", thumbnail: "/thumbnails/DAW14.avif" },
+  { id: "SuwbxN9H9jo",  title: "DAW Archive 15", thumbnail: "/thumbnails/DAW15.avif" },
 ]
