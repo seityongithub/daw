@@ -38,10 +38,11 @@ export function ClickToEnter({ onEnter }: ClickToEnterProps) {
 
   return (
     <div
-      className={`fixed inset-0 z-[100] bg-black flex items-center justify-center cursor-pointer transition-opacity duration-500 ${
+      className={`fixed inset-0 z-[100] bg-black flex items-center justify-center transition-opacity duration-500 ${
         isFading ? "opacity-0" : "opacity-100"
       }`}
       onClick={handleClick}
+      style={{ cursor: "pointer" }}
     >
       <p className="text-white text-lg md:text-xl font-light tracking-wide animate-pulse">
         click to enter...
