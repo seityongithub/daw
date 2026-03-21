@@ -37,7 +37,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/" className="text-xl font-bold text-white tracking-wider">
             <Image
-              src="/DAW Font.png"
+              src="/DAW.png"
               alt="Dominate And Win"
               fill
               className="object-contain"
