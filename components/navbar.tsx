@@ -35,12 +35,11 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="relative h-12 w-40 flex items-center flex-shrink-0">
+          <Link href="/" className="text-xl font-bold text-white tracking-wider">
             <Image
-              src="/logo.png"
+              src="/DAW.png"
               alt="Dominate And Win"
-              width={160}
-              height={48}
+              fill
               className="object-contain"
               priority
             />
