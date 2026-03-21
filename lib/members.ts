@@ -147,8 +147,7 @@ export const members: Member[] = [
   },
 ]
 
-export const getMemberBySlug = (slug: string | undefined): Member | undefined => {
-  if (!slug) return undefined
+export const getMemberBySlug = (slug: string): Member | undefined => {
   return members.find((m) => m.slug === slug.toLowerCase())
 }
 
