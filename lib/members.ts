@@ -11,6 +11,7 @@ export interface SocialLinks {
   youtube?: string
   tiktok?: string
   kick?: string
+  discord?: string
 }
 
 export interface Member {
