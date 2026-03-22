@@ -21,7 +21,7 @@ export interface Member {
   background: string
   music: string
   socials?: SocialLinks
-  views?: number // Fake profile views - manually edit this number
+  views?: number
 }
 
 export const members: Member[] = [
