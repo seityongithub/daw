@@ -104,7 +104,7 @@ export const members: Member[] = [
     discordId: "966398614840684606",
     role: "Founder",
     background: "/backgrounds/maureen1.gif",
-    music: "https://www.youtube.com/watch?v=8AsEhY-aBdo",
+    music: "https://www.youtube.com/watch?v=OiwtQDRpl7U",
     socials: {
       youtube: "https://www.youtube.com/channel/UCYro4E7LxF002IxUgAj6Deg",
     },
