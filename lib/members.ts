@@ -139,6 +139,19 @@ export const members: Member[] = [
     views: 380,
   },
   {
+    name: "RIRI",
+    slug: "riri",
+    discordId: "1222078946573553725",
+    role: "Founder",
+    background: "/backgrounds/justin.gif",
+    music: "https://www.youtube.com/watch?v=iEo8thKLxFw",
+    socials: {
+      youtube: "https://www.youtube.com/@JxtnTempest",
+      tiktok: "https://www.tiktok.com/@oblvcks",
+    },
+    views: 380,
+  },
+  {
     name: "JAMBO",
     slug: "jambo",
     discordId: "1134152321417367765",
