@@ -150,7 +150,7 @@ function MemberProfile({ member }: { member: NonNullable<ReturnType<typeof getMe
           </div>
 
           {/* Social Links */}
-          {(member.socials.youtube || member.socials.tiktok || member.socials.kick || member.socials.discord) && (
+          {member.socials && (member.socials.youtube || member.socials.tiktok || member.socials.kick) && (
             <div className="flex items-center justify-center gap-3">
               {member.socials.youtube && (
                 <a
@@ -176,17 +176,6 @@ function MemberProfile({ member }: { member: NonNullable<ReturnType<typeof getMe
                   </svg>
                 </a>
               )}
-              {member.socials.kick && (
-                <a
-                  href={member.socials.kick}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-9 h-9 flex items-center justify-center bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
-                >
-                  <svg viewBox="0 0 24 24" className="w-5 h-5 text-white" fill="currentColor">
-                    <path d="M1.333 0v24h6.209v-7.418l1.78 2.133 3.958 5.285h7.418l-7.418-9.924 7.006-9.076H13.28l-5.739 7.631V0z"/>
-                  </svg>
-                </a>
               {member.socials.discord && (
                 <a
                   href={member.socials.discord}
@@ -196,6 +185,17 @@ function MemberProfile({ member }: { member: NonNullable<ReturnType<typeof getMe
                 >
                   <svg viewBox="0 0 24 24" className="w-5 h-5 text-white" fill="currentColor">
                     <path d="M20.317 4.369a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.249a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.249.077.077 0 0 0-.079-.037 19.736 19.736 0 0 0-4.885 1.515.069.069 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.056 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.873-1.295 1.226-1.994a.076.076 0 0 0-.041-.105 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.927 1.793 8.18 1.793 12.061 0a.073.073 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.04.106c.36.698.77 1.363 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .031-.055c.5-5.177-.838-9.674-3.548-13.66a.061.061 0 0 0-.031-.03z"/>
+                </a>
+              )}
+              {member.socials.kick && (
+                <a
+                  href={member.socials.kick}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 flex items-center justify-center bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
+                >
+                  <svg viewBox="0 0 24 24" className="w-5 h-5 text-white" fill="currentColor">
+                    <path d="M1.333 0v24h6.209v-7.418l1.78 2.133 3.958 5.285h7.418l-7.418-9.924 7.006-9.076H13.28l-5.739 7.631V0z"/>
                   </svg>
                 </a>
               )}
