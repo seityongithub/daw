@@ -11,7 +11,7 @@ export interface SocialLinks {
   youtube?: string
   tiktok?: string
   kick?: string
-  discordId?: string
+  discord?: string
 }
 
 export interface Member {
@@ -108,6 +108,7 @@ export const members: Member[] = [
     music: "https://www.youtube.com/watch?v=OiwtQDRpl7U",
     socials: {
       youtube: "https://www.youtube.com/channel/UCYro4E7LxF002IxUgAj6Deg",
+      discord: "https://discord.com/users/966398614840684606",
     },
     views: 540,
   },
