@@ -150,7 +150,7 @@ function MemberProfile({ member }: { member: NonNullable<ReturnType<typeof getMe
           </div>
 
           {/* Social Links */}
-          {(member.socials?.youtube || member.socials?.tiktok || member.socials?.kick || member.discordId) && (
+          {(member.socials.youtube || member.socials.tiktok || member.socials.kick || member.socials.discord) && (
             <div className="flex items-center justify-center gap-3">
               {member.socials.youtube && (
                 <a
