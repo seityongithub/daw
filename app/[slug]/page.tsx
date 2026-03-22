@@ -187,10 +187,9 @@ function MemberProfile({ member }: { member: NonNullable<ReturnType<typeof getMe
                     <path d="M1.333 0v24h6.209v-7.418l1.78 2.133 3.958 5.285h7.418l-7.418-9.924 7.006-9.076H13.28l-5.739 7.631V0z"/>
                   </svg>
                 </a>
-              {/* Discord (AUTO from discordId) */}
-              {member.discordID && (
+              {member.socials.discord && (
                 <a
-                  href={`https://discord.com/users/${member.discordId}`}
+                  href={member.socials.discord}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 flex items-center justify-center bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
