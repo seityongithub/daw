@@ -149,7 +149,7 @@ export const members: Member[] = [
       youtube: "https://www.youtube.com/@JxtnTempest",
       tiktok: "https://www.tiktok.com/@oblvcks",
     },
-    views: 380,
+    views: 1,
   },
   {
     name: "JAMBO",
