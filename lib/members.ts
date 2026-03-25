@@ -36,7 +36,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@denvr2fast",
     },
-    views: 1250,
+    views: 2950,
   },
   {
     name: "CLYDEN",
@@ -72,7 +72,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@ramie-r4n",
     },
-    views: 720,
+    views: 1720,
   },
   {
     name: "CHANCE",
@@ -97,7 +97,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@kingghayes",
     },
-    views: 650,
+    views: 1650,
   },
   {
     name: "MAUREEN",
@@ -110,7 +110,7 @@ export const members: Member[] = [
       youtube: "https://www.youtube.com/channel/UCYro4E7LxF002IxUgAj6Deg",
       discord: "https://discord.com/users/966398614840684606",
     },
-    views: 540,
+    views: 1540,
   },
   {
     name: "SHANTY",
@@ -149,7 +149,7 @@ export const members: Member[] = [
       youtube: "https://www.youtube.com/@notwiwii",
       tiktok: "https://www.tiktok.com/@notririiii_",
     },
-    views: 1,
+    views: 1231,
   },
   {
     name: "JAMBO",
@@ -161,7 +161,7 @@ export const members: Member[] = [
     socials: {
       youtube: "https://www.youtube.com/@Zipppp6_25",
     },
-    views: 290,
+    views: 390,
   },
 ]
 
