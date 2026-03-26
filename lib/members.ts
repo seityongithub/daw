@@ -44,7 +44,7 @@ export const members: Member[] = [
     discordId: "441199824302374913",
     role: "Founder",
     background: "/backgrounds/clyden.gif",
-    music: "https://www.youtube.com/watch?v=adfUwRb-GNc",
+    music: "https://www.youtube.com/watch?v=U8QhB8_0t2g",
     socials: {
       youtube: "https://www.youtube.com/@ClydenFiveM",
     },
