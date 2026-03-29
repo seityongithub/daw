@@ -29,7 +29,7 @@ export const members: Member[] = [
   {
     name: "DENVER",
     slug: "denver",
-    discordId: "685390457852788784",
+    discordId: "1351488243325210634",
     role: "Founder",
     background: "/backgrounds/denver.gif",
     music: "https://www.youtube.com/watch?v=fG4g-HHRFPo",
